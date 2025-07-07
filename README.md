@@ -1,12 +1,39 @@
-# React + Vite
+# 🍬 Carambar Frontend – Projet CDA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenue sur l’interface frontend de la **Carambar API**, développée en React avec **Vite** et **TailwindCSS**, dans le cadre de la formation CDA (Concepteur Développeur d’Applications).
+Ce projet consomme une API Node.js/Express permettant la gestion de blagues Carambar, et les affiche de façon moderne et responsive.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Fonctionnalités
 
-## Expanding the ESLint configuration
+- 📜 Affichage des blagues via API
+- ➕ Ajout d’une nouvelle blague
+- ✏️ Édition d’une blague
+- ❌ Suppression d’une blague
+- ⚡️ UI rapide et responsive avec Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧱 Stack technique
+
+- **Framework** : [React](https://reactjs.org/) (via [Vite](https://vitejs.dev/))
+- **Style** : [Tailwind CSS](https://tailwindcss.com/)
+- **Déploiement** : [GitHub Pages](https://pages.github.com/)
+- **API utilisée** : [Carambar API Backend](https://github.com/IZUKADEV/cda_api_brief)
+
+---
+
+## Installation locale
+
+```bash
+# 1. Clone le dépôt
+git clone https://github.com/IZUKADEV/cda_api_frontend.git
+cd cda_api_frontend
+
+# 2. Installe les dépendances
+npm install
+
+# 3. Lance le projet en local
+npm run dev
+```
