@@ -1,9 +1,10 @@
 import React from "react";
+import Card from "../components/card";
 
 export default function Acc() {
-        return (
+    return (
             <div>
-                
+                <Card />
             </div>
         );
     
